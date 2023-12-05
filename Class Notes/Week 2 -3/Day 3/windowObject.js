@@ -3,9 +3,16 @@
 
 //prompt("what is your name?")
 
-let number=prompt("Enter your age here?", "number data type goes here")
 
+let number=prompt("What is your age?")
 console.log(number)
 
 //Prompt your user with a question and console.log() and view in your browser 
 
+
+
+//confirm() 
+
+let isRaining=confirm("Is it raining?")
+
+console.log(isRaining)
