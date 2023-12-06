@@ -17,12 +17,15 @@ console.log("This is how many are inside the arr list:", arr.length)
 //.........................................To Do..............................................
 //Create an array with values and then console log the list and its length  
 // array of numbers
-
+let num=[34,56,78,90,45,65]
+console.log("list of numbers:", num)
+console.log("number of numbers in my list", num.length)
 
 
 // array of strings, fruits
-
-
+let fruit=["banana", "Orange", "Tomamto"]
+console.log("list of fruits:", fruit)
+console.log("number of fruits in my list", fruit.length)
 
 // array of web technologies
 
@@ -36,8 +39,8 @@ console.log(charOfJs)
 //.........................................To Do..............................................
 //For the two strings use a split method to conosole.log and see the list of arrays
 let companiesString = 'Facebook, Google, Microsoft, Apple, IBM, Oracle, Amazon'
-
-
+let newCompaniyString=companiesString.split(" ")
+console.log(newCompaniyString)
 let txt =
   'I love teaching and empowering people. I teach HTML, CSS, JS, React, Python.'
 
@@ -66,8 +69,10 @@ const shoppingCart = [
     'Sugar'
   ] // List of food products
 
-
-
+  let items=[shoppingCart[0],shoppingCart[3],shoppingCart[shoppingCart.length-1]]
+  console.log(items)
+shoppingCart[4]="onion"
+console.log(shoppingCart)
 
 
 //////////////////////////////////////////////////////////////////////////////////////////////
