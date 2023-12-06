@@ -41,7 +41,7 @@
 //     // code to returen falsy value 
 // }
 
-let weather =prompt("What Weather do you want?");
+// let weather =prompt("What Weather do you want?");
 
 // if(weather==="rainy"){
 //     console.log("you need to to wear a coat")
@@ -74,6 +74,8 @@ let weather =prompt("What Weather do you want?");
 
 // switch(weather){
 //     case "rainy":
+//     case "windy":
+//     case "Snowy":    
 //         console.log("you need a rain coat")
 //         break
 //     case "sunny":
@@ -92,6 +94,11 @@ let weather =prompt("What Weather do you want?");
 //Another way to write conditionals is using ternary operators. 
 //Ternary operator allows to write a condition.
 
+let isRaining=false;
+
+isRaining
+    ? console.log("you need a rain coat")
+    : console.log("No need for a rain coat")
 
 
 
