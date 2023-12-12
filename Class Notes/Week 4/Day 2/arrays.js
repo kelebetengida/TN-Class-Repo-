@@ -87,6 +87,13 @@ console.log(numbers)
 //////////////////////////////////////////////////////////////////////////////////////////////
 // Methods to manipulate array
 
+const numarr=[59,57,58,59,56]
+numarr.shift()
+console.log(numarr)
+
+
+
+
 
 //Getting index an element in arr array (To check if an item exist in an array.)
 
