@@ -71,3 +71,12 @@ adding(555, 89,45,48)
 // ["us", "canada","barcelona"]
 
 // return ["US", "CANADA", "BARCELONA"]
+function capitalizeArray(arr){
+    let country=[]
+    for(let i=0; i<=arr.length;i++){
+        
+    }
+    return country
+}
+
+capitalizeArray(["us", "canada","barcelona"])
