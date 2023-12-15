@@ -2,28 +2,33 @@
 //Buliding block of your JS code
 //it is a reusable block of code allow you to perform a specific task
 // Function Declaration
-function functionName(){
-    //code goes here
-}
 
-functionName() //calling the function into action 
+
+// function functionName(){
+//     //code goes here
+// }
+
+// functionName() //calling the function into action 
 
 function greetingsGenerator(name){
+    //Task you want the function to perform
     console.log("hello"+ " "+ name)
 }
 
-greetingsGenerator("Kelebet")
+
+
+greetingsGenerator("kelebet")
 
 // Function without a parameter and return
 
-// function add(){
-//     let num1=5;
-//     let num2=5;
-//     let sum=num1+num2
-//     console.log(sum)
-// }
+function add(){
+    let num1=5;
+    let num2=5;
+    let sum=num1+num2
+    console.log(sum)
+}
 
-// add()
+add()
 // Function returning value
 function add(){
     let num1=5;
@@ -71,12 +76,16 @@ adding(555, 89,45,48)
 // ["us", "canada","barcelona"]
 
 // return ["US", "CANADA", "BARCELONA"]
+
+
+
 function capitalizeArray(arr){
-    let country=[]
-    for(let i=0; i<=arr.length;i++){
-        
+    let newArr=[];
+    for(const counrty of arr){
+        newArr.push(counrty.toUpperCase())
     }
-    return country
+    console.log(newArr)
 }
 
-capitalizeArray(["us", "canada","barcelona"])
+
+capitalizeArray(['banana', 'orange', 'mango', 'lemon'])
