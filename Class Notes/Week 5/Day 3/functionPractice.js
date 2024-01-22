@@ -3,8 +3,17 @@
 
 
 // Function with default parameters
+function functionName(param1) {
+    //code
+}
+functionName(param1)
 
-
+//example
+function areaOfCircle(r) {
+    let area = Math.PI * r *r
+    return area
+}
+console.log(areaOfCircle(10))
 
 // Function declaration versus Arrow function
 
