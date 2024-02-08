@@ -99,3 +99,32 @@ const webTechs = [
 let countries=["ALBANIA", "BOLIVIA", "CANADA", "DENMARK", "ETHIOPIA", "FINLAND", "GERMANY", "HUNGARY", "IRELAND", "JAPAN", "KENYA"]
 //Using the above countries array, create an array for countries length'.
 //Expected outcome is [7, 7, 6, 7, 8, 7, 7, 7, 7, 5, 5]
+
+
+//While loops repeats an infinite amount of times 
+//while loops
+//let i = 0
+while (i <= 5) {
+  console.log(i)
+  i++
+}
+// 0 1 2 3 4 5
+
+//do while loop
+let i = 0
+ do {
+  console.log(i)
+  i++
+} while (i <= 5)
+// 0 1 2 3 4 5
+
+//For of Loop - used for arrays
+for (const element of arr) {
+    console.log(num)
+}
+
+//example
+const numbers = [1, 2, 3, 4, 5]
+for (const num of numbers) {
+    console.log(num)
+}
