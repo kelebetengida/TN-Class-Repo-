@@ -7,6 +7,6 @@ const callback = (n) => {
 
 //function that takes other function as a callback
 function cube(callback, n) {
-    return callbaqck(n) * n
+    return callback(n) * n
 }
 console.log(cube(callback, 3))

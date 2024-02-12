@@ -13,6 +13,17 @@ function cube(callback, n) {
 
 console.log(cube(callback, 3))
 
+//Example callback 
+//define your callback function 
+const addNum = (n) => {
+  return n + n
+}
+//define the function that will use the callback
+function square(addNum, n) {
+   return addNum(n) + n
+}
+console.log(square(addNum, 3))
+
 //Higher order functions return functions as a value
 //callback function
 const higherOrder = n => {

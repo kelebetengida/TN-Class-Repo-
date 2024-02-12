@@ -14,18 +14,28 @@ function myFunction() {
 }
 myFunction()
 
+var name = "Bridgett"
+
 function myName() {
-  let name = "Bridgett"
-  console.log(name)
+ return name
 }
 myName()
+console.log(name)
+
+function yourName() {
+  // let name = "Bridgett"
+ }
+ yourName()
+ myName()
+ console.log(name)
+ 
 
 //Expression function
 //Anonymous function 
 const add = function(n) {
   return n + n
 }
-console.log(add(1)
+console.log(add(1))
 
 //Anonymous function
 //const sum = function(n) {
@@ -34,37 +44,38 @@ console.log(add(1)
 ////console.log(sum(1)
 
 //Arrow function
-//const myFunction = n => {
+const myFunction = n => {
   //code
-//}
-//myFunction()
+}
+myFunction()
 
 
 //Creating a function with a parammeter
-// function myName(param1) {
-//   let name = "Bridgett"
-//   console.log(name)
-// }
-// myName("Carlos")
+ function myName(param1) {
+   let name = "Bridgett"
+  console.log(name)
+ }
+ myName("Carlos")
 
-// function square(number) {
-//   return number * number
+ function square(number) {
+return number * number
 
-// }
-// square(10)
+}
+ square(10)
+ myName()
 
 
 // //functions with two parameters
-// function functionName(parm1, parm2) {
+ function functionName(parm1, parm2) {
 //   //code goes here 
-// }
-// functionName(parm1, parm2)
+ }
+ functionName(1, 2)
 
 // //example
-// function addNumbers(num1, num2) {
-//   let sum = num1 + num2
-//   console.log(sum)
-// }
-// addNumbers(10, 20)
-)
+ function addNumbers(num1, num2) {
+   let sum = num1 + num2
+   console.log(sum)
+   }
+ addNumbers(10, 20)
+
 

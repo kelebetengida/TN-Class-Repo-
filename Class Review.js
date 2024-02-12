@@ -8,7 +8,7 @@ let salary = null; // Null
 
 // 2. Initialize a Variable with let
 // let allows you to declare variables that are limited to the scope of a block statement.
-let message = "Hello, world!";
+//let message = "Hello, world!"
 
 // 3. Top-Down Direction of Code
 // JavaScript code is read and executed from top to bottom.
