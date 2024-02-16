@@ -19,3 +19,15 @@ const products = [
 // Use map to create a new array by changing each country to uppercase in the countries array.
 // Use map to create an array of countries length from countries array.
 // Use map to create a new array by changing each number to square in the numbers array
+
+// Use map to change to each name to uppercase in the names array
+// Use map to map the products array to its corresponding prices.
+// Use filter to filter out countries containing land.
+// Use filter to filter out countries having six character.
+// Use filter to filter out countries containing six letters and more in the country array.
+// Use filter to filter out country start with 'E';
+// Use filter to filter out only prices with values.
+// Declare a function called getStringLists which takes an array as a parameter and then returns an array only with string items.
+// Use reduce to sum all the numbers in the numbers array.
+// Use reduce to concatenate all the countries and to produce this sentence: Estonia, Finland, Sweden, Denmark, Norway, and IceLand are north European countries
+// Explain the difference between some and every
