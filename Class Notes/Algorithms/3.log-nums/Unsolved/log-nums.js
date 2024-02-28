@@ -2,5 +2,5 @@
 // Assume `num` will be a positive number
 
 var logNums = function(num) {
-    
+    //code here 
 };

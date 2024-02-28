@@ -10,7 +10,8 @@ const products = [
   { product: 'tea', price: '' },
 ]
 
-
+const listOfPrice=products.map(product=>product.price)
+console.log(listOfPrice)
 // Explain the difference between forEach, map, filter, and reduce.
 // Define a callback function before you use it in forEach, map, filter or reduce.
 // Use forEach to console.log each country in the countries array.
