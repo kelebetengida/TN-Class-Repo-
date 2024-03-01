@@ -30,17 +30,17 @@
 
 //Creating a pattern with RegExp Constructor 
 
-//without flag
-let pattern = 'love'
-let regEx = new RegExp(pattern)
+// //without flag
+// let pattern = 'love'
+// let regEx = new RegExp(pattern)
 
-//Declaring regular expression with global flag and case insensitive flag.
+// //Declaring regular expression with global flag and case insensitive flag.
 
-let pattern = 'love'
-let flag = 'gi'
-let regEx = new RegExp(pattern, flag)
+// let pattern = 'love'
+// let flag = 'gi'
+// let regEx = new RegExp(pattern, flag)
 
-//Declaring a regex pattern using RegExp object. 
-//Writing the pattern and the flag inside the RegExp constructor
+// //Declaring a regex pattern using RegExp object. 
+// //Writing the pattern and the flag inside the RegExp constructor
 
-let regEx = new RegExp('love','gi')
+// let regEx = new RegExp('love','gi')
