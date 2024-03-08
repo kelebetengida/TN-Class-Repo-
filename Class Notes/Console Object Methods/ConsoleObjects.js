@@ -172,3 +172,6 @@ const func = () => {
 
 //   console.clear()
 // The console.clear() cleans the browser console.
+
+
+//console.clear()
