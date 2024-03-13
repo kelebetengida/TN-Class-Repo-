@@ -29,7 +29,7 @@ document.getElementsByClassName('classname')
 //syntax
 document.getElementById('id')
 
-const allIds=document.getElementById("first-title")
+const allIds = document.getElementById("first-title")
 console.log(allIds)
 console.log(allIds.length)
 
@@ -56,27 +56,40 @@ console.log(allIds.length)
 // title[3].id="fourth-title"
 // console.log(title)
 /////// Adding attribute using setAttribute
-const titles=document.querySelectorAll("h1")
-titles[3].setAttribute("class", "title")
-titles[3].setAttribute("id", "fourth-title")
+// const titles=document.querySelectorAll("h1")
+// titles[3].setAttribute("class", "title")
+// titles[3].setAttribute("id", "fourth-title")
 
-/////// Adding attribute without setAttribute
-const title=document.querySelectorAll("h1")
-title[3].className="title"
-title[3].id="fourth-title"
-// console.log(title)
-/////// Adding class using classList
-title[3].classList.add("title", "header-title")
+// /////// Adding attribute without setAttribute
+// const title=document.querySelectorAll("h1")
+// title[3].className="title"
+// title[3].id="fourth-title"
+// // console.log(title)
+// /////// Adding class using classList
+// title[3].classList.add("title", "header-title")
 
 
 
-/////// Removing class using remove
-title[3].classList.remove("title")
+// /////// Removing class using remove
+// title[3].classList.remove("title")
 ///////////////////////////////// Adding Text to HTML element/////////////////
 /////// Adding Text content using textContent
+const title = document.querySelectorAll("h1")
+title[3].textContent = "Fourth Title"
+
 ///////// Adding Text Content using innerHTML
 ////////////// Text Content
 ////////////// Inner HTML
+const list = `
+<li>Banana</li>
+<li>Orange</li>
+<li>Grape</li>`
+
+const ul=document.querySelector("ul")
+ul.innerHTML=list;
+
+ul.innerHTML="";
+
 //////////////////////////////////////// Adding style/////////////////////////////
 /////// Adding Style Color
 /////// Adding Style Background Color
