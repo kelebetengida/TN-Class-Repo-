@@ -87,10 +87,37 @@ const list = `
 
 const ul=document.querySelector("ul")
 ul.innerHTML=list;
-
 ul.innerHTML="";
 
 //////////////////////////////////////// Adding style/////////////////////////////
 /////// Adding Style Color
+const allTitles=document.querySelectorAll("h1")
+allTitles.forEach((title, i)=>{
+    title.style.fontSize="24px"
+    if(i%2===0){
+        title.style.color="green"
+        title.style.backgroundColor="red"
+    }else{
+        title.style.color="red"
+        title.style.backgroundColor="green"
+    }
+})
+
 /////// Adding Style Background Color
+// const allTitles=document.querySelectorAll("h1")
+// allTitles.forEach((title, i)=>{
+//     if(i%2===0){
+//         title.style.backgroundColor="green"
+//     }else{
+//         title.style.backgroundColor="red"
+//     }
+// })
 /////// Adding Style Font Size
+// const allTitles=document.querySelectorAll("h1")
+// allTitles.forEach((title, i)=>{
+//     if(i%2===0){
+//         title.style.fontSize="24px"
+//     }else{
+//         title.style.fontSize="50px"
+//     }
+// })
