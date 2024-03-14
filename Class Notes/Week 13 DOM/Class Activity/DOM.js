@@ -36,9 +36,23 @@ allParagraphs.forEach((paragraph, index) => {
 
 // Change style of each paragraph using JavaScript(eg. color, background, border, font-size, font-family)
 
-
+allParagraphs.forEach((paragraph, index)=>{
+    paragraph.style.color="red";
+    paragraph.style.background="green";
+    paragraph.style.fontFamily= "cursive"
 // Select all paragraphs and loop through each elements and give the first and third paragraph a color of green, and the second and the fourth paragraph a red color
 
+    if(index%2===0){
+        paragraph.style.color="red";
+    }else{
+        paragraph.style.color="green";
+    }
 
 // Set text content, id and class to each paragraph
+    paragraph.id=`paragraph ${index+1}`
+    paragraph.className=`paragraph-class`
+    paragraph.textContent=`This is Paragraph ${index+1}`
+})
+// Select all paragraphs and loop through each elements and give the first and third paragraph a color of green, and the second and the fourth paragraph a red color
+
 
