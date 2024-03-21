@@ -23,16 +23,16 @@ document.createElement("tagname")
 
 
 // Creating elements
-let title
-for(let i=0;i<6;i++){
-    title=document.createElement("h1")
-    title.textContent=`This is header number ${i+1}`
-    title.style.fontSize="24px"
-    title.className="header class"
-    title.id=`header ${i+1}`
-    console.log(title)
-    document.body.appendChild(title)
-}
+// let title;
+// for(let i=0;i<8;i++){
+//     title=document.createElement("h1")
+//     title.textContent=`This is header number ${i+1}`
+//     title.style.fontSize="24px"
+//     title.className="header class"
+//     title.id=`header ${i+1}`
+//     console.log(title)
+//     document.body.appendChild(title)
+// }
 
 
 // Appending child to a parent element
