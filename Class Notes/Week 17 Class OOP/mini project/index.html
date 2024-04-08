@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Leaderboard</title>
+  <link rel="stylesheet" href="./style.css">
+</head>
+<body>
+  <!-- Create a container element with a class of "container". -->
+  <!-- Inside the container, include: -->
+  <div class="container">
+    <!-- An <h1> element with the text "Leaderboard". -->
+      <h1>Leaderboard</h1>
+        <!-- A <form> element with an ID of "playerForm" containing: -->
+          <form id="playerForm">
+             <!-- Text input for the first name with an ID of "firstName" and a placeholder of "First Name" (required). -->
+             <input type="text" id="firstName" placeholder="First Name" required/>
+              <!-- Text input for the last name with an ID of "lastName" and a placeholder of "Last Name" (required). -->
+              <input type="text" id="lastName" placeholder="Last Name" required/>
+              <!-- Text input for the country with an ID of "country" and a placeholder of "Country" (required). -->
+              <input type="text" id="country" placeholder="Country" required/>
+              <!-- Number input for the score with an ID of "score" and a placeholder of "Score" (required). -->
+              <input type="number" id="score" placeholder="Score" required/>
+              <!-- A submit button with an ID of "addPlayer" and the text "Add Player". -->
+              <button id="addPlayer">Add Player</button>
+          </form>   
+  </div>
+        <!-- A <div> element with an ID of "leaderboard" where the player cards will be displayed. -->
+          <div id="leaderboard"></div>
+  
+  <script src="./DOM.js"></script>
+  <script src="./DOM2.js"></script>
+
+</body>
+</html>

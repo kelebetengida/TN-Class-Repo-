@@ -10,8 +10,6 @@ class Car{
         this.navigation=navigation
     }
 }
-
-
 class Suv extends Car{
     constructor(make, model, year, enginesize,brakesPrice, navigation,awd, numberOfPassengers, towCampacity ){
         super(make, model, year, enginesize,brakesPrice, navigation)
@@ -20,7 +18,6 @@ class Suv extends Car{
         this.towCampacity=towCampacity
     }
 }
-
 const hondaPilot=new Suv("Honda", "Pilot", 2015, "V6", 455, true, true, 7, 50)
 
 class PickupTruck extends Car{
@@ -30,8 +27,6 @@ class PickupTruck extends Car{
         this.towCampacity=towCampacity
     }
 }
-
-
 const f150=new PickupTruck("Ford", "f150", 2011, "V8", 500, true, "regular Engine", 1.5)
 
 
