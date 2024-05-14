@@ -1,76 +1,13 @@
-////////////////////////////////Welcome to Props///////////////////////////////////
 import React from 'react';
 import ReactDOM from "react-dom"
-// What is props? 
-// Props is a data carrier that passes data between components, 
-// primarily from parent components to child components
-
-
-// Props in Functional Component
-
-const Header = ({welcome, title, theFirstName, theLastName, date}) => {
- 
-  return (
-    <header>
-      <div>
-        <h1>{welcome}</h1>
-        <h2>{title}</h2>
-        <p>
-          Instructor: {theFirstName}{theLastName}
-        </p>
-        <small>Date: {date} </small>
-      </div>
-    </header>
-  )
-}
-
-const User = ({firstName="Jan", lastName="doe", country="US"}) => {
-  return (
-    <div>
-      <h1>{firstName}</h1>
-      <h1>{lastName}</h1>
-      <small>{country}</small>
-    </div>
-  )
-}
-
-
-// Function prop types
-const Button = ({functionData, text}) => {
-  return (
-    <button onClick={functionData}>{text}</button>
-  )
-}
-
-
-
-const Main = ({skills, firstName="Uchikoshi", lastName="Kotaro", age="50"}) => {
-  return (
-    <main>
-      <div>
-        <p> Pre-requiste to get started with react</p>
-        <ul>
-          {skills}
-          <p>{firstName} {lastName}</p>
-          <p>{age}</p>
-        </ul>
-      </div>
-    </main>
-  )
-}
-
-const Footer = () => {
-  return (
-    <p>The bottom of the page</p>
-  )
-}
-
-
-
+import Header from "./components/header"
+import Footer from "./components/footer"
+import Main from "./components/main"
+import Button from "./components/button"
+import User from "./components/user"
 
 
 const App = () => {
-  // Function prop types
   const sayHi = () => { alert("Hi") }
   const sayBye = () => { alert("Bye") }
   const WelcomeMe = () => { alert("Welcome to React") }
@@ -123,35 +60,3 @@ const App = () => {
 
 const rootElement = document.getElementById("root")
 ReactDOM.render(<App />, rootElement)
-
-
-// Boolean props type
-
-
-
-
-
-
-// propTypes
-// defaultProps
-
-
-
-
-
-
-
-
-
-///////////////////////////////////Assignment/////////////////////////////////
-// What is props in a React component ?
-//Keyword that stands for properties and is used for passing data from one component to another. 
-
-
-// How do you access props in a React component ?
-// To access  data types  in a React component you can use dot notation in order to access .
-// What data types can we pass as props to components ?
-// We can pass different types of data 
-// What is a propTypes?
-//properties for // What is a default propTypes?
-// The initial values set under a comonent to be used if they are nt
