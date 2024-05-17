@@ -127,12 +127,13 @@ ReactDOM.render(<App />, rootElement)
 
 /////////////////////////////////////////To Do////////////////////////////////
 // Why you need to map an array ?
-
+//Mapping an array is useful when you need to transform each element of the array in someway. 
 
 // Why we need keys during mapping an array ?
-
+//They are unique identification on list iteam so that they can recognized and rendered in the apropriate list item. 
 
 // What is the importance of destructuring your code ?
-
+//simplifying code to make it readable, allows you to unpack the data from props object into distinct variables. It creates clarity on the data. 
 
 // Does destructuring make your code clean and easy to read ?
+//yes 

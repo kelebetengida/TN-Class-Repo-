@@ -1,0 +1,1 @@
+# Use the given hexadecimal color generator in the example to create these random colors

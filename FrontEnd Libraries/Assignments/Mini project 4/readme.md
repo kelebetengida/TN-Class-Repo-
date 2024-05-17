@@ -1,0 +1,1 @@
+# In the following design, evens are green, odds are yellow and prime numbers are red. Build the following colors using React component
