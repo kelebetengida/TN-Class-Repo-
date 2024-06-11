@@ -1,49 +1,12 @@
 import React, { Component } from 'react'
 import ReactDOM from 'react-dom'
-
-const options = [
-  {
-    value: '',
-    label: '-- Select Country--',
-  },
-  {
-    value: 'Finland',
-    label: 'Finland',
-  },
-  {
-    value: 'Sweden',
-    label: 'Sweden',
-  },
-  {
-    value: 'Norway',
-    label: 'Norway',
-  },
-  {
-    value: 'Denmark',
-    label: 'Denmark',
-  },
-]
-
-
 class App extends Component {
   // declaring initial state
   state = {
     firstName: '',
     lastName: '',
-    email: '',
     country: '',
-    tel: '',
-    dateOfBirth: '',
-    favoriteColor: '',
-    weight: '',
-    gender: '',
-    file: '',
-    bio: '',
-    skills: {
-      html: false,
-      css: false,
-      javascript: false,
-    },
+    title: '',
   }
   handleChange = (e) => {
     /*
@@ -64,12 +27,6 @@ class App extends Component {
      specifically refreshing of page
      */
     e.preventDefault()
-
-    /*
-     the is the place where we connect backend api 
-     to send the data to the database
-     */
-
     console.log(this.state)
   }
 
@@ -77,8 +34,7 @@ class App extends Component {
     // accessing the state value by destrutcturing the state
     const { firstName, lastName, title, country } = this.state
     return (
-      <div className='App'>
-        <h3>Add Student</h3>
+      <div >
         <form onSubmit={this.handleSubmit}>
           <div>
             <input
@@ -117,7 +73,7 @@ class App extends Component {
             />
           </div>
 
-          <button class='btn btn-success'>Submit</button>
+          <button >Submit</button>
         </form>
       </div>
     )
